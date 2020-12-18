@@ -29,10 +29,6 @@
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 82vh;
-  height: 61.2vh;
-  max-width: 68.9vw;
-  max-height: 51.6vw;
   background-image: url(../../src/assets/images/background.jpg);
 
   .carousel {
@@ -258,6 +254,12 @@
       transform: rotate(-90deg);
     }
   }
+
+  .screen {
+    height: 600px;
+    width: 800px;
+    left: -6px;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:1023.98px) {
@@ -269,6 +271,12 @@
       width: 728px;
       height: 100%;
     }
+  }
+
+  .screen {
+    width: 577px;
+    height: 768px;
+    top: -5px;
   }
 }
 
@@ -291,6 +299,13 @@
       transform: rotate(-90deg);
     }
   }
+
+  .screen {
+    width: 374px;
+    height: 212px;
+    top: 1px;
+    left: 1px;
+  }
 }
 
 @media screen and (max-width:767.98px) {
@@ -310,5 +325,13 @@
       height: 100%;
       width: 280px;
     }
+  }
+
+  .screen {
+    height: 415px;
+    width: 234px;
+    min-width: 234px;
+    top: 1px;
+    right: 1px;
   }
 }
